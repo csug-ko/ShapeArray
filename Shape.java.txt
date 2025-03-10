@@ -1,0 +1,30 @@
+package Shapes;
+
+abstract class Shape
+{
+    Shape() {
+// shape variables
+        double area;
+        double volume;
+    }
+// setter
+    /*     public void setArea(double userArea)
+        {
+            area = userArea;
+        }
+
+// setter
+        public void setVolume(double userVolume)
+        {
+            volume = userVolume;
+        }
+*/
+// getter 
+        abstract double surface_area();
+
+// getter
+        abstract double volume();
+
+
+
+}
